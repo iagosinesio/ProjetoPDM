@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "13547697897",
+    "firebase_url": "https://zooquiz-dbe60.firebaseio.com",
+    "project_id": "zooquiz-dbe60",
+    "storage_bucket": "zooquiz-dbe60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13547697897:android:5b8213cb06f3a4ee",
+        "android_client_info": {
+          "package_name": "com.example.iagosinesio.zooquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13547697897-a51s87jrp754lj1d1leel6rcaifs0a3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPIbaQegTipDrDlUcRxdHkLKk9e9KgB0Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

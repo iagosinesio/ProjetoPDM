@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_background"
+        tools:context="com.example.iago.zooquiz.MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/logo"
+                    android:layout_gravity="center_horizontal"/>
+        <EditText
+                android:id="@+id/campo_usuario"
+                android:layout_marginStart="33dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_user"
+                android:hint="Usuário"
+                android:drawablePadding="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_edit_background"
+                android:padding="10dp"/>
+
+        <EditText
+                android:id="@+id/campo_senha"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_senha"
+                android:hint="Senha"
+                android:drawablePadding="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_edit_background"
+                android:padding="10dp"/>
+
+        <TextView
+                android:id="@+id/link_esquecer_senha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Esqueceu a senha?"
+                android:padding="2dp"
+                android:layout_marginStart="220dp"/>
+
+        <Button
+                android:id="@+id/botao_entrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttom_background"
+                android:text="Entrar"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="100dp"/>
+
+        <TextView
+                android:id="@+id/link_novo_usuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cadastrar"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
